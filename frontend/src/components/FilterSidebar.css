@@ -1,0 +1,44 @@
+.filter-sidebar {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  position: sticky;
+  top: calc(var(--nav-height) + 16px);
+  height: fit-content;
+}
+
+.filter-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.filter-group {
+  padding: 14px 0;
+  border-top: 1px solid var(--color-border);
+}
+.filter-group:first-of-type {
+  border-top: none;
+}
+.filter-group h4 {
+  font-size: 0.85rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--color-text-muted);
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.filter-price-range {
+  display: flex;
+  gap: 8px;
+}

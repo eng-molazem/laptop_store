@@ -1,0 +1,36 @@
+.compare-bar {
+  position: fixed;
+  bottom: calc(var(--bottom-nav-height) + 46px);
+  left: 50%;
+  z-index: 160;
+  background: var(--color-text);
+  color: var(--color-bg);
+  padding: 12px 18px;
+  border-radius: var(--radius-pill);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  box-shadow: var(--shadow-lg);
+  max-width: calc(100vw - 24px);
+  width: max-content;
+  box-sizing: border-box;
+}
+.compare-bar-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .compare-bar {
+    gap: 6px;
+    padding: 8px 8px 8px 14px;
+    font-size: 0.78rem;
+  }
+  .compare-bar-actions .btn {
+    padding: 7px 9px;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+}

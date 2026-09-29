@@ -1,0 +1,10 @@
+node_modules
+.env
+uploads/products/*
+uploads/payment-methods/*
+uploads/payment-proofs/*
+!uploads/products/.gitkeep
+!uploads/payment-methods/.gitkeep
+!uploads/payment-proofs/.gitkeep
+.mongodata
+mongo.log
